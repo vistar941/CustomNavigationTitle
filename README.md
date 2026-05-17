@@ -15,6 +15,8 @@ CustomNavigationTitle is a simple SwiftUI package that animates the display and 
 
 ## Requirements
 - iOS 16.0+
+- MacCatalyst 16.0+
+- macOS 13.0+
 
 ## Installation
 Install using Swift Package Manager (SPM).
