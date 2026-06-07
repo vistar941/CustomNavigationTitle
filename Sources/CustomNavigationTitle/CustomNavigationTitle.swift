@@ -81,4 +81,9 @@ extension View {
             Text(title)
         }
     }
+    public func scrollAwareTitle(_ title: LocalizedStringResource) -> some View {
+        scrollAwareTitle{
+            Text(title)
+        }
+    }
 }
