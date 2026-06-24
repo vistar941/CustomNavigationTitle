@@ -23,7 +23,7 @@ Install using Swift Package Manager (SPM).
 
 1. Open your project in Xcode.
 2. Select **File > Add Package Dependency...**.
-3. Enter `https://github.com/Chronos2500/CustomNavigationTitle.git`.
+3. Enter `https://github.com/vistar941/CustomNavigationTitle.git`.
 4. Configure the version requirements and click **Add Package**.
 
 ## Usage
@@ -73,5 +73,5 @@ struct ContentView: View {
 ## License
 Provided under the MIT License.
 
-Chronos2500 © 2025
+vistar941 © 2026
 
