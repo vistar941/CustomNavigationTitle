@@ -71,12 +71,17 @@ extension View {
 }
 
 extension View {
-    public func scrollAwareTitle<S: StringProtocol>(_ title: S) -> some View {
+    @_disfavoredOverload public func scrollAwareTitle<S: StringProtocol>(_ title: S) -> some View {
         scrollAwareTitle{
             Text(title)
         }
     }
     public func scrollAwareTitle(_ title: LocalizedStringKey) -> some View {
+        scrollAwareTitle{
+            Text(title)
+        }
+    }
+    @_disfavoredOverload public func scrollAwareTitle(_ title: LocalizedStringResource) -> some View {
         scrollAwareTitle{
             Text(title)
         }
